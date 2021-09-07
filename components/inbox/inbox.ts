@@ -15,8 +15,8 @@ export function inboxComponent() {
       </form>
     </div>
   `;
-    
-  
+
+
   return componentEl;
 
 
