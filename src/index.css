@@ -194,6 +194,7 @@ body{
   font-weight: 400;
   font-size: 30px;
   color:#000000;
+  margin-top:26px;
 }
 .inbox__container--final--sent{
   background-color: #FF9BB3;

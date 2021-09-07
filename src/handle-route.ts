@@ -5,7 +5,6 @@ import { findAndProcessLinks } from ".";
 import { inboxEmailComponent } from "../components/inbox/email";
 export function handleRoute(route) {
   const contenedorEl = document.querySelector(".container");
-  //contenedorEl.innerHTML = "";
   const routes = [
     {
       path: /\/inbox/,
