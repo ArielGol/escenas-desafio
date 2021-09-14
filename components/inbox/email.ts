@@ -1,7 +1,6 @@
 export function inboxEmailComponent() {
   const componentEl = document.createElement("div");
   const emailId=location.pathname.split("/")[2];
-  console.log(emailId);
   componentEl.innerHTML = `
   <div class="inbox__container--final">
     <h2 class="inbox__title">Recibido </h2>

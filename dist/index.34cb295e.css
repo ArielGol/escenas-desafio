@@ -167,7 +167,7 @@ body{
   border:solid 1px;
 
 }
-.section-form__input{
+.section-form__input, .section-form__input--dos{
   border:none;
   outline:none;
   background-color: transparent;
@@ -195,6 +195,7 @@ body{
   font-size: 30px;
   color:#000000;
   margin-top:26px;
+  word-wrap: break-word;
 }
 .inbox__container--final--sent{
   background-color: #FF9BB3;

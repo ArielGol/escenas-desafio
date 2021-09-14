@@ -536,7 +536,20 @@ parcelHelpers.export(exports, "inboxComponent", ()=>inboxComponent
 );
 function inboxComponent() {
     const componentEl = document.createElement("div");
-    componentEl.innerHTML = `\n  <div class="section-form__container">\n      <h1 class="section-form__title">Inbox</h1>\n      <form  class="section-form">\n        <input type="text" class="section-form__input" id="emailUno" placeholder="Un email">\n        <button class="section-form__button" id="btn" value="submit" onClick="javascript: window.open('./inbox/' + document.getElementById('emailUno').value);"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n        <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/></button>\n      </form>\n      <form  class="section-form">    \n        <input type="text" class="section-form__input" id="emailDos" placeholder="Un email">\n        <button class="section-form__button" id="btn" value="submit" onClick="javascript: window.open('./inbox/' + document.getElementById('emailDos').value);"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n        <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/></button>\n      </form>\n    </div>\n  `;
+    componentEl.innerHTML = `\n  <div class="section-form__container">\n      <h1 class="section-form__title">Inbox</h1>\n      <form  class="section-form">\n      <input type="text" class="section-form__input" id="emailUno" placeholder="Un email">\n  <a href="" class="link-intern--inbox-uno"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n  <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/>\n  </svg></a>\n</form>\n<form  class="section-form">\n<input type="text" class="section-form__input--dos" id="emailUno" placeholder="Un email">\n<a href="" class="link-intern--inbox-dos"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n<path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/>\n</svg></a>\n</form>\n</div>\n  `;
+    console.log(componentEl);
+    const buttonEl = componentEl.querySelector(".link-intern--inbox-uno");
+    const buttonDosEl = componentEl.querySelector(".link-intern--inbox-dos");
+    console.log(buttonEl);
+    const inputEl = componentEl.querySelector(".section-form__input");
+    const inputDosEl = componentEl.querySelector(".section-form__input--dos");
+    console.log(inputEl);
+    buttonEl.addEventListener('click', ()=>{
+        buttonEl.href = './inbox/' + inputEl.value;
+    });
+    buttonDosEl.addEventListener('click', ()=>{
+        buttonDosEl.href = './inbox/' + inputDosEl.value;
+    });
     return componentEl;
 //el.appendChild(componentEl);
 }
@@ -580,7 +593,20 @@ parcelHelpers.export(exports, "sentComponent", ()=>sentComponent
 );
 function sentComponent() {
     const componentEl = document.createElement("div");
-    componentEl.innerHTML = `\n  <div class="section-form__container--sent">\n      <h1 class="section-form__title">Sent</h1>\n      <form  class=" section-form section-form--sent">\n        \n        <input type="text" class="section-form__input" id="emailUno" placeholder="Un email">\n        <button class="section-form__button link-intern" id="btn" value="submit" onClick="javascript: window.open('./sent/' + document.getElementById('emailUno').value);"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n        <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/>\n        </svg></button>\n      </form>\n      <form  class="section-form">\n        \n        <input type="text" id="emailDos" class="section-form__input" placeholder="Un email">\n        <button class="section-form__button" id="btn" value="submit" onClick="javascript: window.open('./sent/' + document.getElementById('emailDos').value);"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n        <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/>\n</button>\n      </form>\n    </div>\n  `;
+    componentEl.innerHTML = `\n  <div class="section-form__container--sent">\n      <h1 class="section-form__title">Sent</h1>\n      <form  class=" section-form section-form--sent">\n        \n        <input type="text" class="section-form__input" id="emailUno" placeholder="Un email">\n        <a href="" class="link-intern--sent-uno"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n        <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/>\n        </svg></a>\n      </form>\n      <form  class="section-form">\n      <input type="text" class="section-form__input--dos" id="emailUno" placeholder="Un email">\n      <a href="" class="link-intern--sent-dos"><svg width="36" height="42" viewBox="0 0 36 42" fill="none" xmlns="http://www.w3.org/2000/svg">\n      <path d="M0.500004 1.08142L35 21L0.500002 40.9186L0.500004 1.08142Z" stroke="black"/>\n      </svg></a>\n      </form>\n    </div>\n  `;
+    console.log(componentEl);
+    const buttonEl = componentEl.querySelector(".link-intern--sent-uno");
+    const buttonDosEl = componentEl.querySelector(".link-intern--sent-dos");
+    console.log(buttonEl);
+    const inputEl = componentEl.querySelector(".section-form__input");
+    const inputDosEl = componentEl.querySelector(".section-form__input--dos");
+    console.log(inputEl);
+    buttonEl.addEventListener('click', ()=>{
+        buttonEl.href = './sent/' + inputEl.value;
+    });
+    buttonDosEl.addEventListener('click', ()=>{
+        buttonDosEl.href = './sent/' + inputDosEl.value;
+    });
     return componentEl;
 //el.appendChild(componentEl);
 }
@@ -607,7 +633,6 @@ parcelHelpers.export(exports, "inboxEmailComponent", ()=>inboxEmailComponent
 function inboxEmailComponent() {
     const componentEl = document.createElement("div");
     const emailId = location.pathname.split("/")[2];
-    console.log(emailId);
     componentEl.innerHTML = `\n  <div class="inbox__container--final">\n    <h2 class="inbox__title">Recibido </h2>\n    <h3 class="inbox__subtitle">Lo que esté en la URL<a href="/inbox/${emailId}" class="link-intern inbox__subtitle"> ${emailId}</a></h3>\n    </div>\n  `;
     return componentEl;
 //el.appendChild(componentEl);

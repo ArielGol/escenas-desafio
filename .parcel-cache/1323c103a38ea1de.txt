@@ -1,4 +1,4 @@
-17000
+17004
 108C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\posthtml-parser\changelog.md132746600686490000 0
 122C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\es-abstract\2019\FromPropertyDescriptor.js132746601816099998 0
 79C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\package.json132753420538968792 0
@@ -15,7 +15,7 @@
 101C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\dotenv-expand\LICENSE132746600494430000 0
 114C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@parcel\utils\node_modules\kind-of132754366953059466 1
 104C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\abortcontroller-polyfill132754367031179018 1
-71C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist132759678316434635 1
+71C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist132760519568577442 1
 101C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\querystring\decode.js132746600501140002 0
 91C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\request\lib132754369456269683 1
 143C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\posthtml\node_modules\entities\lib\generated\decode-data-xml.js132748415429810000 0
@@ -176,7 +176,7 @@
 102C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\core-js\stable\promise132754367769191977 1
 133C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\caniuse-lite\data\features\focusin-focusout-events.js132746600822920000 0
 113C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\uri-js\dist\esnext\schemes\urn.js132746601855240000 0
-80C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\src\index.css132754542532583198 0
+80C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\src\index.css132760517542273459 0
 91C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\imurmurhash132754368503401599 1
 97C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\astring\README.md132746601211580000 0
 98C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\lodash\iteratee.js132746601304250000 0
@@ -6808,7 +6808,7 @@
 115C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\postcss-reduce-initial\package.json132746601266359998 0
 98C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\reusify\reusify.js132746601390930000 0
 127C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\es-abstract\helpers\getOwnPropertyDescriptor.js132746601816099998 0
-89C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.b31310b1.js132759678315877148 0
+89C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.b31310b1.js132760516183577883 0
 95C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\reusify\test.js132746601390930000 0
 103C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\lodash\fp\propertyOf.js132746601304250000 0
 96C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\ret\package.json132746601343400000 0
@@ -8254,7 +8254,7 @@
 98C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\delegates\Makefile132751950049869998 0
 133C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\lmdb-store\dependencies\lz4\lib\dll\example\README.md132746600859939998 0
 133C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\lmdb.h132746600859939998 0
-82C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.html132759678315877148 0
+82C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.html132760519568420995 0
 107C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\path-browserify\security.md132746601425810002 0
 100C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\path-browserify\test132754369132372148 1
 104C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\types\lib\asserts132754366485482831 1
@@ -16903,6 +16903,7 @@
 116C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\core\node_modules\.bin\semver132751950964568839 0
 120C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\core\node_modules\.bin\semver.cmd132751950964608809 0
 104C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\core\lib\index.js132746600627760000 0
+89C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.d30cd508.js132760519568420995 0
 104C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\core\lib\parse.js132746600627760000 0
 102C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\core\lib\parser132754366385317021 1
 112C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\@babel\core\lib\transform-ast.js132746600627760000 0
@@ -16991,11 +16992,14 @@
 90C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\node_modules\.bin\which132751951189232770 0
 89C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.08a06918.js132759678141040857 0
 93C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.08a06918.js.map132759678141962687 0
-90C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.34cb295e.css132759678315877148 0
-94C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.34cb295e.css.map132759678316392490 0
-93C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.b31310b1.js.map132759678316392490 0
+90C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.34cb295e.css132760517543750299 0
+94C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.34cb295e.css.map132760517544017790 0
+93C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.b31310b1.js.map132760516183637903 0
+93C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.d30cd508.js.map132760519568577442 0
+90C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.e61faaf5.css132760519568420995 0
+94C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\dist\index.e61faaf5.css.map132760519568577442 0
 83C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\inbox132754366360318766 1
 91C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\sent\email.ts132754344853489303 0
-90C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\sent\sent.ts132754539715990276 0
-92C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\inbox\email.ts132754345583181407 0
-92C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\inbox\inbox.ts132759677264331624 0
+90C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\sent\sent.ts132760516180938129 0
+92C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\inbox\email.ts132760474076645525 0
+92C:\Users\Ariel\Desktop\Aprender_a_programar\dwf-m5\escenas-desafio\components\inbox\inbox.ts132760515628556272 0
